@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>StarNet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon"  href="assets/img/stars32.png">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-black">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                <img src="assets/img/stars32.png">
+                    <!--	bx bx-buildings = icono del logo de la web: 
+                    http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+                    https://boxicons.com/
+                    -->
+    
+               <span class="text-light h4">Star</span><span class="text-warning h4">Net</span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning px-5" href="index.html">Inicio</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning px-5" href="about.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning px-5" href="work.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning px-5" href="pricing.html">Planes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-warning px-5" href="contact.html">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-primary'></i></a>
+                        <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-primary'></i></a>
+                        <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-primary'></i></a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class=" w-100">
+        <div id="cajanosotros" class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 text-warning typo-space-line">Sobre Nosotros</h1>
+                    <p class="text-light light-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt totam quas, ex fugiat quod enim harum, aperiam blanditiis expedita beatae exercitationem. Libero nostrum pariatur odio similique explicabo doloremque quisquam minus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum corporis ratione quibusdam, maxime quam repellat, doloremque, nisi explicabo eius consequatur molestias eveniet non ea accusantium eligendi saepe modi. Molestias, dicta? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas laboriosam repellendus laudantium necessitatibus odio maiores accusantium ratione quaerat, vero itaque eligendi, tempora doloremque eum natus. Quasi autem tempora expedita! Saepe. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eos beatae, maiores harum ipsa quibusdam odit esse laudantium assumenda placeat soluta rem repudiandae optio consequuntur qui. Velit eveniet vitae cupiditate?
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img id="empress" src="./assets/img/empresa.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Team Member -->
+    <section class="container py-4">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 text-warning typo-space-line">Nuestro Equipo</h2>
+                <p class="text-light light-300">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-warning pt-4 text-center light-300">
+                        <li>Juan Pérez</li>
+                        <li>Business Development</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <ul class="team-member-caption text-warning list-unstyled text-center pt-4  light-300">
+                        <li>Juana Peréz</li>
+                        <li>Media Development</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-warning light-300">
+                        <li>Roberto</li>
+                        <li>Developer</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+    <!-- Start Our Partner -->
+    <section id="cajaclientes" class="py-3">
+        <div class="container py-2">
+            <h2 class="h2 text-warning text-center py-1">Clientes satisfechos</h2>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3">
+                    <img class="clientes" src="assets/img/satisfecho1.jpg">
+                    
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img class="clientes" src="assets/img/satisfecho2.jpeg">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img class="clientes" src="assets/img/satisfecho3.jpg">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img class="clientes" src="assets/img/satisfecho4.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Our Partner-->
+
+    <!-- Start Progress -->
+    
+    <!-- End Progress -->
+
+    <!-- Start Choice -->
+    <section class="why-us">
+        
+            <div id="cajaelegir" class="row">
+                <div class="col-lg-5 py-5">
+                    <img id="elegir" src="./assets/img/astronauta-estrella-pesca-espacio_1366-716.jpg" class="rounded img-fluid" alt="">
+                </div>
+                <div class=" col-lg-7 align-self-center py-5-">
+                    <h2 class="h2 text-light">¿Porqué StarNet?</h2> 
+                    <p class="text-warning pb-5 light-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sapiente cum sequi blanditiis pariatur quam necessitatibus sed debitis assumenda veniam doloribus et obcaecati delectus error, non, iure dolorum deserunt repellendus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum delectus hic obcaecati ullam magni. Molestiae tempora voluptatem vero delectus voluptate pariatur repudiandae quam, quibusdam tenetur, necessitatibus omnis eum neque blanditiis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choice -->
+
+    <!-- Start Aim -->
+    <section id="containermision" class="banner-bg bg-white py-5">
+        <div class="container my-4">
+            <div class="row text-center">
+
+                <div class="objective col-lg-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-dark shadow-lg">
+                        <i class="display-4 bx bxs-bulb text-warning"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-warning">Nuestra Vision</h2>
+                    <p class="light-300 text-light">
+                        Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-dark shadow-lg">
+                        <i class='display-4 bx bx-shape-polygon text-warning'></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-warning">Nuestra Misión</h2>
+                    <p class="light-300 text-light">
+                        Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam quis.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-dark shadow-lg">
+                        <i class='display-4 bx bx-heart text-warning'></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-warning">Nuestra Pasión</h2>
+                    <p class="light-300 text-light">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Aim -->
+
+    <!-- Start Contact -->
+    <section id="containersub" class="banner-bg bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-warning text-center">Suscribite para recibir ofertas</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                        <button class="btn btn-dark text-white btn-lg rounded-pill rounded-start px-lg-4" type="submit">Suscribirte</button>
+                    </div>
+                    <p class="text-center text-light light-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+     <footer class=" pt-4">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/stars32.png">
+                        <span class="text-light h5">Star</span><span class="text-warning h5 semi-bold-600">Net</span>
+                    </a>
+                    <p class="text-light my-lg-4 my-2">
+                        Conectate en cualquier lugar de la galaxia.
+                    </p>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="http://facebook.com/">
+                                <img src="assets/img/fbicono.png">
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.instagram.com/">
+                                <img src="assets/img/ingicono.png">
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                                <img src="assets/img/whatsappicon.png">
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-light light-300">StarNet</h2>
+                        <ul class="list-unstyled text-light light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+								href="index.html">Inicio</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="about.html">Conocenos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="work.html">Trabajos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+								href="pricing.html">Planes</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+								href="contact.html">Ayuda</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Servicios</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Telefonía Movil</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Telefono hogar</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Internet banda ancha</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Internet fibra optica</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Television por cable</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="#">Wifi donde estés</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+							href="tel:010-020-0340">021-2354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+							href="mailto:info@company.com">info@StarNet.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 bg-dark py-2">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-light light-300">
+                            © Copyright 2021 StarNet. Todos los derechos reservados.
+                            
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center text-light light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>Luca Neve TP1 Codo a Codo</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
